@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+	  <AssemblyVersion>1.0.0224.9</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="ZSDK_API.xcframework">
+      <Kind>Static</Kind>
+      <Frameworks></Frameworks>
+      <LinkerFlags></LinkerFlags>
+      <WeakFrameworks></WeakFrameworks>
+      <ForceLoad>False</ForceLoad>
+      <SmartLink>True</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+</Project>

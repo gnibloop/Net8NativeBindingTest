@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+    <AssemblyVersion>1.0.0224.10</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iOS.ZebraLinkOs">
+      <HintPath>..\iOS.ZebraLinkOs\bin\Release\net8.0-ios\iOS.ZebraLinkOs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
