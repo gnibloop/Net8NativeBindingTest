@@ -1,4 +1,6 @@
-using iOS.ZebraLinkOs;
+using iOS.StarIO;
+using iOS.StarIOExt;
+using UIKit;
 
 namespace iOSApp2
 {
@@ -30,27 +32,39 @@ namespace iOSApp2
             // make the window visible
             Window.MakeKeyAndVisible();
 
-            var printerConnection = new TcpPrinterConnection("192.168.1.134", 9100);
 
-            var testBool = PreCheckPrinterStatus(printerConnection);
-            Console.WriteLine(testBool.ToString());
+            var printerConnected = new SMPrinter("192.168.1.156");
+            if(printerConnected != null) {
+                Console.WriteLine("Failed");
+                 }
             return true;
         }
 
-        private bool PreCheckPrinterStatus(TcpPrinterConnection connection)
+        public class SMPrinter : IDisposable
         {
-            
-            // Check the printer status prior to printing
-            IZebraPrinter printer = ZebraPrinterFactory.GetInstance(connection, out NSError errFactory);
-            PrinterStatus status = printer.GetCurrentStatus(out NSError errStatus);
-            if (!status.IsReadyToPrint)
-            {
-                //System.Diagnostics.Debug.WriteLine("Unable to print. Printer is " + status.Status);
-                return false;
-            }
-            return true;
-        }
-    }
+            public string Address { get; set; }
+            public SMPort Port;
+            public StarPrinterStatus_2 Status;
+            public bool IsBusy { get; set; }
+            public DateTime LatestErrorBuzzTime { get; set; }
 
+            public SMPrinter(string address)
+            {
+                Address = address;
+                Port = SMPort.GetPort(address, "", 10000); //10 sec timeout
+                if (Port == null) throw new Exception("Can't connect to port");
+                Status = new StarPrinterStatus_2();
+            }
+            public void Dispose()
+            {
+                if (Port != null)
+                {
+                    SMPort.ReleasePort(Port);
+                }
+                Port?.Dispose();
+            }
+        }
+
+    }
 
 }

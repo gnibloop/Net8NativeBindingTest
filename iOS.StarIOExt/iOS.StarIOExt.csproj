@@ -4,23 +4,20 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
-	  <AssemblyVersion>1.0.0227.4</AssemblyVersion>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
+	  <AssemblyVersion>1.0.0227.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
+
   <ItemGroup>
-    <NativeReference Include="ZSDK_API.xcframework">
-      <Kind>Static</Kind>
-      <Frameworks></Frameworks>
-      <LinkerFlags></LinkerFlags>
-      <WeakFrameworks></WeakFrameworks>
+    <NativeReference Include="StarIO_Extension.xcframework">
+      <Kind>Framework</Kind>
       <ForceLoad>False</ForceLoad>
       <SmartLink>True</SmartLink>
     </NativeReference>
   </ItemGroup>
-
-
 </Project>

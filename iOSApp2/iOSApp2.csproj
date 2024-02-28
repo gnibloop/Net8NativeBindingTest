@@ -5,11 +5,14 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
-    <AssemblyVersion>1.0.0224.10</AssemblyVersion>
+    <AssemblyVersion>1.0.0228.3</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="iOS.ZebraLinkOs">
-      <HintPath>..\iOS.ZebraLinkOs\bin\Release\net8.0-ios\iOS.ZebraLinkOs.dll</HintPath>
+    <Reference Include="iOS.StarIO">
+      <HintPath>..\iOS.StarIO\bin\Release\net8.0-ios\iOS.StarIO.dll</HintPath>
+    </Reference>
+    <Reference Include="iOS.StarIOExt">
+      <HintPath>..\iOS.StarIOExt\bin\Release\net8.0-ios\iOS.StarIOExt.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
