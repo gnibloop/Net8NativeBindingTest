@@ -1,0 +1,4 @@
+framework module CloverRemote {
+  header "CloverRemote-Swift.h"
+  requires objc
+}

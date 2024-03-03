@@ -1,5 +1,3 @@
-using iOS.StarIO;
-using iOS.StarIOExt;
 using UIKit;
 
 namespace iOSApp2
@@ -31,38 +29,7 @@ namespace iOSApp2
 
             // make the window visible
             Window.MakeKeyAndVisible();
-
-
-            var printerConnected = new SMPrinter("192.168.1.156");
-            if(printerConnected != null) {
-                Console.WriteLine("Failed");
-                 }
             return true;
-        }
-
-        public class SMPrinter : IDisposable
-        {
-            public string Address { get; set; }
-            public SMPort Port;
-            public StarPrinterStatus_2 Status;
-            public bool IsBusy { get; set; }
-            public DateTime LatestErrorBuzzTime { get; set; }
-
-            public SMPrinter(string address)
-            {
-                Address = address;
-                Port = SMPort.GetPort(address, "", 10000); //10 sec timeout
-                if (Port == null) throw new Exception("Can't connect to port");
-                Status = new StarPrinterStatus_2();
-            }
-            public void Dispose()
-            {
-                if (Port != null)
-                {
-                    SMPort.ReleasePort(Port);
-                }
-                Port?.Dispose();
-            }
         }
 
     }

@@ -1,0 +1,76 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CloverRemote
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CloverConnector
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc open class ConnectionManager : ObjectiveC.NSObject, CloverConnector.PairingDeviceConfiguration {
+  public var cloverConnector: (any CloverConnector.ICloverConnector)?
+  public var cloverConnectorListener: CloverRemote.CloverConnectorListener?
+  @objc override dynamic public init()
+  @objc open func Connect(endPoint: Swift.String, remoteAppId: Swift.String, posName: Swift.String, posSerial: Swift.String, savedToken: Swift.String?)
+  @objc open func Disconnect()
+  @objc open func ResetDevice()
+  @objc open func DoAuth(amount: Swift.Int, paymentKey: Swift.String)
+  @objc open func DoSale(amount: Swift.Int, paymentKey: Swift.String, needTips: Swift.Bool, tippable: Swift.Int, signOnScreen: Swift.Bool)
+  @objc open func QueryPayment(paymentKey: Swift.String)
+  @objc open func AdjustTips(cloverOrderId: Swift.String, paymentId: Swift.String, amount: Swift.Int)
+  @objc open func VoidPayment(cloverOrderId: Swift.String, paymentId: Swift.String)
+  @objc open func RefundPayment(cloverOrderId: Swift.String, paymentId: Swift.String, disableReceipt: Swift.Bool, amount: Swift.Int)
+  @objc open func Closeout(batchId: Swift.String?)
+  @objc open func ExecuteOption(option: Swift.String)
+  open func onPairingCode(_ pairingCode: Swift.String)
+  open func onPairingSuccess(_ authToken: Swift.String)
+  @objc deinit
+}
+@objc public class CloverConnectorListener : ObjectiveC.NSObject, CloverConnector.ICloverConnectorListener {
+  public func onIncrementPreAuthResponse(_ incrementPreAuthResponse: CloverConnector.IncrementPreauthResponse)
+  public func onInvalidStateTransitionResponse(_ response: CloverConnector.InvalidStateTransitionResponse)
+  public func onDisplayReceiptOptionsResponse(_ response: CloverConnector.DisplayReceiptOptionsResponse)
+  public func onVoidPaymentRefundResponse(_ response: CloverConnector.VoidPaymentRefundResponse)
+  public func onCustomerProvidedDataEvent(_ event: CloverConnector.CustomerProvidedDataEvent)
+  weak public var cloverConnector: (any CloverConnector.ICloverConnector)?
+  public var preAuthExpectedResponseId: Swift.String?
+  public init(cloverConnector: (any CloverConnector.ICloverConnector)?)
+  open func ExecuteOption(option: Swift.String)
+  public func onTipAdded(_ message: CloverConnector.TipAddedMessage)
+  open func onSaleResponse(_ saleResponse: CloverConnector.SaleResponse)
+  open func onAuthResponse(_ authResponse: CloverConnector.AuthResponse)
+  open func onConfirmPaymentRequest(_ request: CloverConnector.ConfirmPaymentRequest)
+  open func onPreAuthResponse(_ preAuthResponse: CloverConnector.PreAuthResponse)
+  open func onCapturePreAuthResponse(_ capturePreAuthResponse: CloverConnector.CapturePreAuthResponse)
+  open func onTipAdjustAuthResponse(_ tipAdjustAuthResponse: CloverConnector.TipAdjustAuthResponse)
+  open func onVoidPaymentResponse(_ voidPaymentResponse: CloverConnector.VoidPaymentResponse)
+  open func onVoidCreditResponse(_ voidCreditResponse: CloverConnector.VoidCreditResponse)
+  open func onRefundPaymentResponse(_ refundPaymentResponse: CloverConnector.RefundPaymentResponse)
+  open func onManualRefundResponse(_ manualRefundResponse: CloverConnector.ManualRefundResponse)
+  open func onCloseoutResponse(_ closeoutResponse: CloverConnector.CloseoutResponse)
+  open func onVerifySignatureRequest(_ signatureVerifyRequest: CloverConnector.VerifySignatureRequest)
+  open func onVaultCardResponse(_ vaultCardResponse: CloverConnector.VaultCardResponse)
+  public func onDeviceActivityEnd(_ deviceEvent: CloverConnector.CloverDeviceEvent)
+  public func onDeviceActivityStart(_ deviceEvent: CloverConnector.CloverDeviceEvent)
+  open func onDeviceError(_ deviceErrorEvent: CloverConnector.CloverDeviceErrorEvent)
+  open func onDeviceConnected()
+  open func onDeviceReady(_ merchantInfo: CloverConnector.MerchantInfo)
+  open func onDeviceDisconnected()
+  open func onPrintManualRefundReceipt(_ pcm: CloverConnector.PrintManualRefundReceiptMessage)
+  open func onPrintManualRefundDeclineReceipt(_ pcdrm: CloverConnector.PrintManualRefundDeclineReceiptMessage)
+  open func onPrintPaymentReceipt(_ pprm: CloverConnector.PrintPaymentReceiptMessage)
+  open func onPrintPaymentDeclineReceipt(_ ppdrm: CloverConnector.PrintPaymentDeclineReceiptMessage)
+  open func onPrintPaymentMerchantCopyReceipt(_ ppmcrm: CloverConnector.PrintPaymentMerchantCopyReceiptMessage)
+  open func onPrintRefundPaymentReceipt(_ pprrm: CloverConnector.PrintRefundPaymentReceiptMessage)
+  open func onRetrievePendingPaymentsResponse(_ retrievePendingPaymentResponse: CloverConnector.RetrievePendingPaymentsResponse)
+  open func onReadCardDataResponse(_ readCardDataResponse: CloverConnector.ReadCardDataResponse)
+  open func onCustomActivityResponse(_ customActivityResponse: CloverConnector.CustomActivityResponse)
+  open func onMessageFromActivity(_ response: CloverConnector.MessageFromActivity)
+  open func onResetDeviceResponse(_ response: CloverConnector.ResetDeviceResponse)
+  public func onRetrievePaymentResponse(_ response: CloverConnector.RetrievePaymentResponse)
+  open func onRetrievePrintersResponse(_ response: CloverConnector.RetrievePrintersResponse)
+  open func onPrintJobStatusResponse(_ printJobStatusResponse: CloverConnector.PrintJobStatusResponse)
+  open func onRetrieveDeviceStatusResponse(_ response: CloverConnector.RetrieveDeviceStatusResponse)
+  @objc deinit
+}

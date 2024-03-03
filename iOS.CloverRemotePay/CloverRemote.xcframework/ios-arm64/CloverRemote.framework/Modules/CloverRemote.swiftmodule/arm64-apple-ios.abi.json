@@ -1,0 +1,4004 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CloverRemote",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CloverConnector",
+        "printedName": "CloverConnector",
+        "declKind": "Import",
+        "moduleName": "CloverRemote"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectionManager",
+        "printedName": "ConnectionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cloverConnector",
+            "printedName": "cloverConnector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CloverConnector.ICloverConnector?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICloverConnector",
+                    "printedName": "CloverConnector.ICloverConnector",
+                    "usr": "s:15CloverConnector07ICloverB0P"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvp",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvp",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverConnector.ICloverConnector?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICloverConnector",
+                        "printedName": "CloverConnector.ICloverConnector",
+                        "usr": "s:15CloverConnector07ICloverB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvg",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvg",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverConnector.ICloverConnector?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICloverConnector",
+                        "printedName": "CloverConnector.ICloverConnector",
+                        "usr": "s:15CloverConnector07ICloverB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvs",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvs",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvM",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC15cloverConnector0aF007ICloverF0_pSgvM",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cloverConnectorListener",
+            "printedName": "cloverConnectorListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CloverRemote.CloverConnectorListener?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CloverConnectorListener",
+                    "printedName": "CloverRemote.CloverConnectorListener",
+                    "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvp",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvp",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverRemote.CloverConnectorListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CloverConnectorListener",
+                        "printedName": "CloverRemote.CloverConnectorListener",
+                        "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvg",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvg",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverRemote.CloverConnectorListener?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CloverConnectorListener",
+                        "printedName": "CloverRemote.CloverConnectorListener",
+                        "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvs",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvs",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvM",
+                "mangledName": "$s12CloverRemote17ConnectionManagerC23cloverConnectorListenerAA0afG0CSgvM",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionManager",
+                "printedName": "CloverRemote.ConnectionManager",
+                "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)init",
+            "mangledName": "$s12CloverRemote17ConnectionManagerCACycfc",
+            "moduleName": "CloverRemote",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "Connect",
+            "printedName": "Connect(endPoint:remoteAppId:posName:posSerial:savedToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)ConnectWithEndPoint:remoteAppId:posName:posSerial:savedToken:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC7Connect8endPoint11remoteAppId7posName0K6Serial10savedTokenySS_S4SSgtF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "ConnectWithEndPoint:remoteAppId:posName:posSerial:savedToken:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Disconnect",
+            "printedName": "Disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)Disconnect",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC10DisconnectyyF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ResetDevice",
+            "printedName": "ResetDevice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)ResetDevice",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC11ResetDeviceyyF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "DoAuth",
+            "printedName": "DoAuth(amount:paymentKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)DoAuthWithAmount:paymentKey:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC6DoAuth6amount10paymentKeyySi_SStF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "DoAuthWithAmount:paymentKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "DoSale",
+            "printedName": "DoSale(amount:paymentKey:needTips:tippable:signOnScreen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)DoSaleWithAmount:paymentKey:needTips:tippable:signOnScreen:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC6DoSale6amount10paymentKey8needTips8tippable12signOnScreenySi_SSSbSiSbtF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "DoSaleWithAmount:paymentKey:needTips:tippable:signOnScreen:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "QueryPayment",
+            "printedName": "QueryPayment(paymentKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)QueryPaymentWithPaymentKey:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC12QueryPayment10paymentKeyySS_tF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "QueryPaymentWithPaymentKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "AdjustTips",
+            "printedName": "AdjustTips(cloverOrderId:paymentId:amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)AdjustTipsWithCloverOrderId:paymentId:amount:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC10AdjustTips13cloverOrderId07paymentI06amountySS_SSSitF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "AdjustTipsWithCloverOrderId:paymentId:amount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VoidPayment",
+            "printedName": "VoidPayment(cloverOrderId:paymentId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)VoidPaymentWithCloverOrderId:paymentId:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC11VoidPayment13cloverOrderId07paymentI0ySS_SStF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "VoidPaymentWithCloverOrderId:paymentId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "RefundPayment",
+            "printedName": "RefundPayment(cloverOrderId:paymentId:disableReceipt:amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)RefundPaymentWithCloverOrderId:paymentId:disableReceipt:amount:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC13RefundPayment13cloverOrderId07paymentI014disableReceipt6amountySS_SSSbSitF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "RefundPaymentWithCloverOrderId:paymentId:disableReceipt:amount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Closeout",
+            "printedName": "Closeout(batchId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)CloseoutWithBatchId:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC8Closeout7batchIdySSSg_tF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "CloseoutWithBatchId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ExecuteOption",
+            "printedName": "ExecuteOption(option:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager(im)ExecuteOptionWithOption:",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC13ExecuteOption6optionySS_tF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "objc_name": "ExecuteOptionWithOption:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPairingCode",
+            "printedName": "onPairingCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote17ConnectionManagerC13onPairingCodeyySSF",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC13onPairingCodeyySSF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPairingSuccess",
+            "printedName": "onPairingSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote17ConnectionManagerC16onPairingSuccessyySSF",
+            "mangledName": "$s12CloverRemote17ConnectionManagerC16onPairingSuccessyySSF",
+            "moduleName": "CloverRemote",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CloverRemote@objc(cs)ConnectionManager",
+        "mangledName": "$s12CloverRemote17ConnectionManagerC",
+        "moduleName": "CloverRemote",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PairingDeviceConfiguration",
+            "printedName": "PairingDeviceConfiguration",
+            "usr": "s:15CloverConnector26PairingDeviceConfigurationP",
+            "mangledName": "$s15CloverConnector26PairingDeviceConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CloverConnectorListener",
+        "printedName": "CloverConnectorListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onIncrementPreAuthResponse",
+            "printedName": "onIncrementPreAuthResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IncrementPreauthResponse",
+                "printedName": "CloverConnector.IncrementPreauthResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)IncrementPreauthResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC26onIncrementPreAuthResponseyy0aC00f7PreauthI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC26onIncrementPreAuthResponseyy0aC00f7PreauthI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInvalidStateTransitionResponse",
+            "printedName": "onInvalidStateTransitionResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InvalidStateTransitionResponse",
+                "printedName": "CloverConnector.InvalidStateTransitionResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)InvalidStateTransitionResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC32onInvalidStateTransitionResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC32onInvalidStateTransitionResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDisplayReceiptOptionsResponse",
+            "printedName": "onDisplayReceiptOptionsResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DisplayReceiptOptionsResponse",
+                "printedName": "CloverConnector.DisplayReceiptOptionsResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)DisplayReceiptOptionsResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC31onDisplayReceiptOptionsResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC31onDisplayReceiptOptionsResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVoidPaymentRefundResponse",
+            "printedName": "onVoidPaymentRefundResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoidPaymentRefundResponse",
+                "printedName": "CloverConnector.VoidPaymentRefundResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)VoidPaymentRefundResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC27onVoidPaymentRefundResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC27onVoidPaymentRefundResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomerProvidedDataEvent",
+            "printedName": "onCustomerProvidedDataEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomerProvidedDataEvent",
+                "printedName": "CloverConnector.CustomerProvidedDataEvent",
+                "usr": "c:@M@CloverConnector@objc(cs)CustomerProvidedDataEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC27onCustomerProvidedDataEventyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC27onCustomerProvidedDataEventyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "cloverConnector",
+            "printedName": "cloverConnector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "CloverConnector.ICloverConnector?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvp",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvp",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverConnector.ICloverConnector?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICloverConnector",
+                        "printedName": "CloverConnector.ICloverConnector",
+                        "usr": "s:15CloverConnector07ICloverB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvg",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvg",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CloverConnector.ICloverConnector?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ICloverConnector",
+                        "printedName": "CloverConnector.ICloverConnector",
+                        "usr": "s:15CloverConnector07ICloverB0P"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvs",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvs",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvM",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC06cloverC00aC007ICloverC0_pSgvM",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preAuthExpectedResponseId",
+            "printedName": "preAuthExpectedResponseId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvp",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvp",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvg",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvg",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvs",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvs",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvM",
+                "mangledName": "$s12CloverRemote0A17ConnectorListenerC25preAuthExpectedResponseIdSSSgvM",
+                "moduleName": "CloverRemote",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cloverConnector:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CloverConnectorListener",
+                "printedName": "CloverRemote.CloverConnectorListener",
+                "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CloverConnector.ICloverConnector?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICloverConnector",
+                    "printedName": "CloverConnector.ICloverConnector",
+                    "usr": "s:15CloverConnector07ICloverB0P"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC06cloverC0AC0aC007ICloverC0_pSg_tcfc",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC06cloverC0AC0aC007ICloverC0_pSg_tcfc",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "ExecuteOption",
+            "printedName": "ExecuteOption(option:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC13ExecuteOption6optionySS_tF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC13ExecuteOption6optionySS_tF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTipAdded",
+            "printedName": "onTipAdded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TipAddedMessage",
+                "printedName": "CloverConnector.TipAddedMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)TipAddedMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC10onTipAddedyy0aC00fG7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC10onTipAddedyy0aC00fG7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSaleResponse",
+            "printedName": "onSaleResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SaleResponse",
+                "printedName": "CloverConnector.SaleResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)SaleResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC14onSaleResponseyy0aC00fG0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC14onSaleResponseyy0aC00fG0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthResponse",
+            "printedName": "onAuthResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthResponse",
+                "printedName": "CloverConnector.AuthResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)AuthResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC14onAuthResponseyy0aC00fG0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC14onAuthResponseyy0aC00fG0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConfirmPaymentRequest",
+            "printedName": "onConfirmPaymentRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConfirmPaymentRequest",
+                "printedName": "CloverConnector.ConfirmPaymentRequest",
+                "usr": "c:@M@CloverConnector@objc(cs)ConfirmPaymentRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC23onConfirmPaymentRequestyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC23onConfirmPaymentRequestyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPreAuthResponse",
+            "printedName": "onPreAuthResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PreAuthResponse",
+                "printedName": "CloverConnector.PreAuthResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)PreAuthResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC17onPreAuthResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC17onPreAuthResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCapturePreAuthResponse",
+            "printedName": "onCapturePreAuthResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CapturePreAuthResponse",
+                "printedName": "CloverConnector.CapturePreAuthResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)CapturePreAuthResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC24onCapturePreAuthResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC24onCapturePreAuthResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTipAdjustAuthResponse",
+            "printedName": "onTipAdjustAuthResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TipAdjustAuthResponse",
+                "printedName": "CloverConnector.TipAdjustAuthResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)TipAdjustAuthResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC23onTipAdjustAuthResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC23onTipAdjustAuthResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVoidPaymentResponse",
+            "printedName": "onVoidPaymentResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoidPaymentResponse",
+                "printedName": "CloverConnector.VoidPaymentResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)VoidPaymentResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC21onVoidPaymentResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC21onVoidPaymentResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVoidCreditResponse",
+            "printedName": "onVoidCreditResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoidCreditResponse",
+                "printedName": "CloverConnector.VoidCreditResponse",
+                "usr": "s:15CloverConnector18VoidCreditResponseC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC20onVoidCreditResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC20onVoidCreditResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRefundPaymentResponse",
+            "printedName": "onRefundPaymentResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RefundPaymentResponse",
+                "printedName": "CloverConnector.RefundPaymentResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)RefundPaymentResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC23onRefundPaymentResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC23onRefundPaymentResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onManualRefundResponse",
+            "printedName": "onManualRefundResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ManualRefundResponse",
+                "printedName": "CloverConnector.ManualRefundResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)ManualRefundResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC22onManualRefundResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC22onManualRefundResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCloseoutResponse",
+            "printedName": "onCloseoutResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CloseoutResponse",
+                "printedName": "CloverConnector.CloseoutResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)CloseoutResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC18onCloseoutResponseyy0aC00fG0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC18onCloseoutResponseyy0aC00fG0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVerifySignatureRequest",
+            "printedName": "onVerifySignatureRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerifySignatureRequest",
+                "printedName": "CloverConnector.VerifySignatureRequest",
+                "usr": "c:@M@CloverConnector@objc(cs)VerifySignatureRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC24onVerifySignatureRequestyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC24onVerifySignatureRequestyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVaultCardResponse",
+            "printedName": "onVaultCardResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VaultCardResponse",
+                "printedName": "CloverConnector.VaultCardResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)VaultCardResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC19onVaultCardResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC19onVaultCardResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceActivityEnd",
+            "printedName": "onDeviceActivityEnd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CloverDeviceEvent",
+                "printedName": "CloverConnector.CloverDeviceEvent",
+                "usr": "c:@M@CloverConnector@objc(cs)CloverDeviceEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC19onDeviceActivityEndyy0aC00aF5EventCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC19onDeviceActivityEndyy0aC00aF5EventCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceActivityStart",
+            "printedName": "onDeviceActivityStart(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CloverDeviceEvent",
+                "printedName": "CloverConnector.CloverDeviceEvent",
+                "usr": "c:@M@CloverConnector@objc(cs)CloverDeviceEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC21onDeviceActivityStartyy0aC00aF5EventCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC21onDeviceActivityStartyy0aC00aF5EventCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceError",
+            "printedName": "onDeviceError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CloverDeviceErrorEvent",
+                "printedName": "CloverConnector.CloverDeviceErrorEvent",
+                "usr": "c:@M@CloverConnector@objc(cs)CloverDeviceErrorEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC13onDeviceErroryy0aC00afG5EventCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC13onDeviceErroryy0aC00afG5EventCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceConnected",
+            "printedName": "onDeviceConnected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC17onDeviceConnectedyyF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC17onDeviceConnectedyyF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceReady",
+            "printedName": "onDeviceReady(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantInfo",
+                "printedName": "CloverConnector.MerchantInfo",
+                "usr": "c:@M@CloverConnector@objc(cs)MerchantInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC13onDeviceReadyyy0aC012MerchantInfoCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC13onDeviceReadyyy0aC012MerchantInfoCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceDisconnected",
+            "printedName": "onDeviceDisconnected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC20onDeviceDisconnectedyyF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC20onDeviceDisconnectedyyF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintManualRefundReceipt",
+            "printedName": "onPrintManualRefundReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintManualRefundReceiptMessage",
+                "printedName": "CloverConnector.PrintManualRefundReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintManualRefundReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC26onPrintManualRefundReceiptyy0aC00fghI7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC26onPrintManualRefundReceiptyy0aC00fghI7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintManualRefundDeclineReceipt",
+            "printedName": "onPrintManualRefundDeclineReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintManualRefundDeclineReceiptMessage",
+                "printedName": "CloverConnector.PrintManualRefundDeclineReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintManualRefundDeclineReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC33onPrintManualRefundDeclineReceiptyy0aC00fghiJ7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC33onPrintManualRefundDeclineReceiptyy0aC00fghiJ7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintPaymentReceipt",
+            "printedName": "onPrintPaymentReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintPaymentReceiptMessage",
+                "printedName": "CloverConnector.PrintPaymentReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintPaymentReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC21onPrintPaymentReceiptyy0aC00fgH7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC21onPrintPaymentReceiptyy0aC00fgH7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintPaymentDeclineReceipt",
+            "printedName": "onPrintPaymentDeclineReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintPaymentDeclineReceiptMessage",
+                "printedName": "CloverConnector.PrintPaymentDeclineReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintPaymentDeclineReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC28onPrintPaymentDeclineReceiptyy0aC00fghI7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC28onPrintPaymentDeclineReceiptyy0aC00fghI7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintPaymentMerchantCopyReceipt",
+            "printedName": "onPrintPaymentMerchantCopyReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintPaymentMerchantCopyReceiptMessage",
+                "printedName": "CloverConnector.PrintPaymentMerchantCopyReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintPaymentMerchantCopyReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC33onPrintPaymentMerchantCopyReceiptyy0aC00fghiJ7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC33onPrintPaymentMerchantCopyReceiptyy0aC00fghiJ7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintRefundPaymentReceipt",
+            "printedName": "onPrintRefundPaymentReceipt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintRefundPaymentReceiptMessage",
+                "printedName": "CloverConnector.PrintRefundPaymentReceiptMessage",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintRefundPaymentReceiptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC27onPrintRefundPaymentReceiptyy0aC00fghI7MessageCF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC27onPrintRefundPaymentReceiptyy0aC00fghI7MessageCF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRetrievePendingPaymentsResponse",
+            "printedName": "onRetrievePendingPaymentsResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RetrievePendingPaymentsResponse",
+                "printedName": "CloverConnector.RetrievePendingPaymentsResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)RetrievePendingPaymentsResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC33onRetrievePendingPaymentsResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC33onRetrievePendingPaymentsResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReadCardDataResponse",
+            "printedName": "onReadCardDataResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadCardDataResponse",
+                "printedName": "CloverConnector.ReadCardDataResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)ReadCardDataResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC22onReadCardDataResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC22onReadCardDataResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCustomActivityResponse",
+            "printedName": "onCustomActivityResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomActivityResponse",
+                "printedName": "CloverConnector.CustomActivityResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)CustomActivityResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC24onCustomActivityResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC24onCustomActivityResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageFromActivity",
+            "printedName": "onMessageFromActivity(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MessageFromActivity",
+                "printedName": "CloverConnector.MessageFromActivity",
+                "usr": "c:@M@CloverConnector@objc(cs)MessageFromActivity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC21onMessageFromActivityyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC21onMessageFromActivityyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onResetDeviceResponse",
+            "printedName": "onResetDeviceResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResetDeviceResponse",
+                "printedName": "CloverConnector.ResetDeviceResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)ResetDeviceResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC21onResetDeviceResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC21onResetDeviceResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRetrievePaymentResponse",
+            "printedName": "onRetrievePaymentResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RetrievePaymentResponse",
+                "printedName": "CloverConnector.RetrievePaymentResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)RetrievePaymentResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC25onRetrievePaymentResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC25onRetrievePaymentResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRetrievePrintersResponse",
+            "printedName": "onRetrievePrintersResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RetrievePrintersResponse",
+                "printedName": "CloverConnector.RetrievePrintersResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)RetrievePrintersResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC26onRetrievePrintersResponseyy0aC00fgH0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC26onRetrievePrintersResponseyy0aC00fgH0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPrintJobStatusResponse",
+            "printedName": "onPrintJobStatusResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrintJobStatusResponse",
+                "printedName": "CloverConnector.PrintJobStatusResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)PrintJobStatusResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC24onPrintJobStatusResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC24onPrintJobStatusResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRetrieveDeviceStatusResponse",
+            "printedName": "onRetrieveDeviceStatusResponse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RetrieveDeviceStatusResponse",
+                "printedName": "CloverConnector.RetrieveDeviceStatusResponse",
+                "usr": "c:@M@CloverConnector@objc(cs)RetrieveDeviceStatusResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CloverRemote0A17ConnectorListenerC30onRetrieveDeviceStatusResponseyy0aC00fghI0CF",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerC30onRetrieveDeviceStatusResponseyy0aC00fghI0CF",
+            "moduleName": "CloverRemote",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CloverConnectorListener",
+                "printedName": "CloverRemote.CloverConnectorListener",
+                "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener(im)init",
+            "mangledName": "$s12CloverRemote0A17ConnectorListenerCACycfc",
+            "moduleName": "CloverRemote",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CloverRemote@objc(cs)CloverConnectorListener",
+        "mangledName": "$s12CloverRemote0A17ConnectorListenerC",
+        "moduleName": "CloverRemote",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ICloverConnectorListener",
+            "printedName": "ICloverConnectorListener",
+            "usr": "s:15CloverConnector07ICloverB8ListenerP",
+            "mangledName": "$s15CloverConnector07ICloverB8ListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 14,
+      "value": "\"CloverRemote\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2782,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2954,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3046,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3600,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3688,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3780,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4285,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5838,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6305,
+      "length": 15,
+      "value": "\"onPairingCode\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6322,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6656,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6665,
+      "length": 18,
+      "value": "\"onPairingSuccess\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6685,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7445,
+      "length": 14,
+      "value": "\"CloverRemote\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7720,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8218,
+      "length": 17,
+      "value": "\"Execute Option:\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8552,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8561,
+      "length": 12,
+      "value": "\"onTipAdded\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8575,
+      "length": 11,
+      "value": "\"tipAmount\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8949,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9094,
+      "length": 6,
+      "value": "\"PAID\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9126,
+      "length": 12,
+      "value": "\"AUTHORIZED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9167,
+      "length": 15,
+      "value": "\"PREAUTHORIZED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9185,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9334,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9496,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9702,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9820,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9829,
+      "length": 16,
+      "value": "\"onSaleResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9847,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9857,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9868,
+      "length": 11,
+      "value": "\"paymentId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9891,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9908,
+      "length": 12,
+      "value": "\"paymentKey\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9934,
+      "length": 7,
+      "value": "\"last4\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9950,
+      "length": 8,
+      "value": "\"holder\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9967,
+      "length": 10,
+      "value": "\"authCode\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9989,
+      "length": 10,
+      "value": "\"cardType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10011,
+      "length": 15,
+      "value": "\"cardEntryType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10043,
+      "length": 15,
+      "value": "\"cloverOrderId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10075,
+      "length": 11,
+      "value": "\"tipAmount\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10099,
+      "length": 12,
+      "value": "\"actualPaid\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10422,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10431,
+      "length": 16,
+      "value": "\"onSaleResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10449,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10459,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10471,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10645,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10654,
+      "length": 16,
+      "value": "\"onSaleResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10672,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10682,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10809,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10818,
+      "length": 16,
+      "value": "\"onSaleResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10836,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11258,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11370,
+      "length": 6,
+      "value": "\"PAID\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11402,
+      "length": 12,
+      "value": "\"AUTHORIZED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11443,
+      "length": 15,
+      "value": "\"PREAUTHORIZED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11461,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11610,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11688,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11928,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12049,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12155,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12164,
+      "length": 16,
+      "value": "\"onAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12182,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12192,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12203,
+      "length": 11,
+      "value": "\"paymentId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12226,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12243,
+      "length": 12,
+      "value": "\"paymentKey\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12269,
+      "length": 7,
+      "value": "\"last4\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12285,
+      "length": 8,
+      "value": "\"holder\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12302,
+      "length": 10,
+      "value": "\"authCode\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12324,
+      "length": 10,
+      "value": "\"cardType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12346,
+      "length": 15,
+      "value": "\"cardEntryType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12378,
+      "length": 15,
+      "value": "\"cloverOrderId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12410,
+      "length": 11,
+      "value": "\"tipAmount\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12434,
+      "length": 12,
+      "value": "\"actualPaid\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12460,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12773,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12782,
+      "length": 16,
+      "value": "\"onAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12800,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12810,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12822,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12996,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13005,
+      "length": 16,
+      "value": "\"onAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13023,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13033,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13160,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13169,
+      "length": 16,
+      "value": "\"onAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13187,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13542,
+      "length": 41,
+      "value": "\"Payment is nil in ConfirmPaymentRequest\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14217,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14309,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14318,
+      "length": 25,
+      "value": "\"onTipAdjustAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14345,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14355,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14366,
+      "length": 11,
+      "value": "\"paymentId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14420,
+      "length": 11,
+      "value": "\"tipAmount\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14560,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14569,
+      "length": 25,
+      "value": "\"onTipAdjustAuthResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14596,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14606,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15007,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15016,
+      "length": 23,
+      "value": "\"onVoidPaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15041,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15051,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15181,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15190,
+      "length": 23,
+      "value": "\"onVoidPaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15215,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15225,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15235,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15636,
+      "length": 29,
+      "value": "\"onRefundPaymentResponse -> \""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15712,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15751,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15898,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15907,
+      "length": 25,
+      "value": "\"onRefundPaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15934,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15944,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16086,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16095,
+      "length": 25,
+      "value": "\"onRefundPaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16122,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16132,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16142,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16184,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16587,
+      "length": 22,
+      "value": "\"CloseoutResponse -> \""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16651,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16685,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16827,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16836,
+      "length": 20,
+      "value": "\"onCloseoutResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16858,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16868,
+      "length": 9,
+      "value": "\"SUCCEED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17010,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17019,
+      "length": 20,
+      "value": "\"onCloseoutResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17041,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17051,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17061,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17098,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17702,
+      "length": 9,
+      "value": "\"END -> \""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17751,
+      "length": 5,
+      "value": "\"UNK\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17760,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17890,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17899,
+      "length": 21,
+      "value": "\"onDeviceActivityEnd\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17922,
+      "length": 12,
+      "value": "\"eventState\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17972,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17984,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18019,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18187,
+      "length": 11,
+      "value": "\"START -> \""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18238,
+      "length": 5,
+      "value": "\"UNK\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18247,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18277,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18360,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18540,
+      "length": 3,
+      "value": "\"~\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18572,
+      "length": 14,
+      "value": "\"InputOption:\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18730,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18739,
+      "length": 23,
+      "value": "\"onDeviceActivityStart\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18764,
+      "length": 12,
+      "value": "\"eventState\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18814,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18825,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18860,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18865,
+      "length": 9,
+      "value": "\"options\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19080,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19318,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19428,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19437,
+      "length": 15,
+      "value": "\"onDeviceError\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19454,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19499,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19688,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19786,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20106,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20115,
+      "length": 15,
+      "value": "\"onDeviceReady\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20150,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20400,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20409,
+      "length": 22,
+      "value": "\"onDeviceDisconnected\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21690,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21864,
+      "length": 7,
+      "value": "\"FOUND\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22024,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22115,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22196,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22360,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22508,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22636,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22767,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22853,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23014,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23019,
+      "length": 10,
+      "value": "\"HASVALUE\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23054,
+      "length": 31,
+      "value": "\"Retrieve Payment Refunds Obj:\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23204,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23213,
+      "length": 27,
+      "value": "\"onRetrievePaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23242,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23260,
+      "length": 11,
+      "value": "\"paymentId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23283,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23300,
+      "length": 12,
+      "value": "\"paymentKey\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23326,
+      "length": 7,
+      "value": "\"last4\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23342,
+      "length": 8,
+      "value": "\"holder\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23359,
+      "length": 10,
+      "value": "\"authCode\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23381,
+      "length": 10,
+      "value": "\"cardType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23403,
+      "length": 15,
+      "value": "\"cardEntryType\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23435,
+      "length": 15,
+      "value": "\"cloverOrderId\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23467,
+      "length": 11,
+      "value": "\"tipAmount\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23491,
+      "length": 12,
+      "value": "\"actualPaid\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23517,
+      "length": 13,
+      "value": "\"refundValue\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23545,
+      "length": 15,
+      "value": "\"paymentResult\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23577,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23666,
+      "length": 11,
+      "value": "\"NOT_FOUND\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23726,
+      "length": 13,
+      "value": "\"IN_PROGRESS\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23845,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23854,
+      "length": 27,
+      "value": "\"onRetrievePaymentResponse\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23883,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23901,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23918,
+      "length": 12,
+      "value": "\"paymentKey\""
+    },
+    {
+      "filePath": "\/Users\/blu\/dev\/CloverRemoteProject\/CloverRemote\/CloverRemote\/CloverRemoteManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6733,
+      "length": 23,
+      "value": "\"CloverRemote.CloverConnectorListener\""
+    }
+  ]
+}
