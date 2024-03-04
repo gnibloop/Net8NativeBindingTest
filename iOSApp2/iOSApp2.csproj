@@ -5,8 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
-    <AssemblyVersion>1.0.0301.1</AssemblyVersion>
+    <AssemblyVersion>1.0.0304.0</AssemblyVersion>
     <ProvisioningType>manual</ProvisioningType>
     <CodesignKey>Apple Development: Created via API (WDT5PVBSC6)</CodesignKey>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iOS.CloverRemotePay">
+      <HintPath>..\iOS.CloverRemotePay\bin\Release\net8.0-ios\iOS.CloverRemotePay.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
