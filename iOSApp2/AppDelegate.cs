@@ -27,6 +27,15 @@ namespace iOSApp2
             });
             Window.RootViewController = vc;
 
+            var endPoint = @"wss://" + "192.168.1.59" + @":12345/remote_pay";
+            var remoteAppId = @"7YDCJVN5ZP6Q2.ZNCG71D25TPMW";//@"com.clover.ios.example.app";
+            var posName = @"POS#1";
+            var posSerial = @"Serial-1"; //serial code to id it
+            var CloverManager = new iOS.CloverRemotePay.ConnectionManager();
+
+            if (CloverManager == null) Console.WriteLine("Error initialize");
+            else CloverManager.ConnectWithEndPoint(endPoint, remoteAppId, posName, posSerial, "");
+
             // make the window visible
             Window.MakeKeyAndVisible();
             return true;

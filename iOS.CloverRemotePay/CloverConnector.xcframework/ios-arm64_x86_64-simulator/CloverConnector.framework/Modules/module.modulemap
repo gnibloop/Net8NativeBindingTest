@@ -1,0 +1,11 @@
+framework module CloverConnector {
+  umbrella header "CloverConnector-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CloverConnector.Swift {
+  header "CloverConnector-Swift.h"
+  requires objc
+}

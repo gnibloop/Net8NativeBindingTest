@@ -4,7 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
-    <AssemblyVersion>1.0.0304.0</AssemblyVersion>
+    <AssemblyVersion>1.0.0309.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,5 +18,25 @@
       <ForceLoad>False</ForceLoad>
       <SmartLink>True</SmartLink>
     </NativeReference>
+    <NativeReference Include="CloverConnector.xcframework">
+      <Kind>Framework</Kind>
+      <ForceLoad>False</ForceLoad>
+      <SmartLink>True</SmartLink>
+    </NativeReference>
+    <NativeReference Include="ObjectMapper.xcframework">
+      <Kind>Framework</Kind>
+      <ForceLoad>False</ForceLoad>
+      <SmartLink>True</SmartLink>
+    </NativeReference>
+        <NativeReference Include="Starscream.xcframework">
+      <Kind>Framework</Kind>
+      <ForceLoad>False</ForceLoad>
+      <SmartLink>True</SmartLink>
+    </NativeReference>
+        <NativeReference Include="SwiftyJSON.xcframework">
+      <Kind>Framework</Kind>
+      <ForceLoad>False</ForceLoad>
+      <SmartLink>True</SmartLink>
+    </NativeReference>        
   </ItemGroup>
 </Project>
